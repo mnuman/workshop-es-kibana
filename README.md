@@ -10,7 +10,7 @@ The ElasticSearch cluster is running on port 9200, Kibana node is running on 560
 - Download the news dataset from https://www.kaggle.com/datasets/rmisra/news-category-dataset
 - E-commerce dataset from https://www.kaggle.com/datasets/carrie1/ecommerce-data
 
-For importing the e-commerce dataset, I felt that bumping the memory limit to some 4GB was necessary. The default memory limit of 1GB would not allow the file to be analyzed before import. Probably also other ways around this.
+Removed memory limits for leader node of Elastic and Kibana to prevent OOM.
 
 
 
